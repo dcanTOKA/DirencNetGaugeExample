@@ -35,7 +35,7 @@ public class BasePage extends DirencNetConstants{
         try {
             TimeUnit.SECONDS.sleep(sec);
         } catch (Exception e) {
-            log(e.printStackTrace());
+            log(e.getMessage());
         }
         log(sec +" saniye kadar beklendi");
     }
