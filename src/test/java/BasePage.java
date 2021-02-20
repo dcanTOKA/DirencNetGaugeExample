@@ -34,7 +34,7 @@ public class BasePage extends DirencNetConstants{
     public void delaySec(int sec){
         try {
             TimeUnit.SECONDS.sleep(sec);
-        } catch (InterruptedException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         log(sec +" saniye kadar beklendi");
